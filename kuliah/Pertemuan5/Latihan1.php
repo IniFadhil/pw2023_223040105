@@ -10,7 +10,7 @@ $binatang = ['🐈‍⬛','🐁','🐒','🐨','🐮'];
 // mencetak satu elemen pada array menggunakan index
 
 echo $hari[1];
-echo "<hr>"
+echo "<hr>";
 
 // mencetak seluruh array
 // var_dump, print_r
@@ -23,8 +23,6 @@ var_dump($myArray);
 echo "<br>";
 print_r($binatang);
 echo "<hr>";
-
-//
 //
 $hari[3] = 'kamis';
 print_r($hari);
@@ -35,9 +33,9 @@ $hari[] = "Sabtu";
 print_r($hari);
 echo "<br>";
 //
-araay_push($bulan,'april','mei');
+array_push($bulan, 'april','mei');
 print_r($bulan);
-echo "<br>";
+echo "<hr>";
 //
 array_pop($hari);
 array_pop($hari);
