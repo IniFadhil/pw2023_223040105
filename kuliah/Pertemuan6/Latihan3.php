@@ -44,8 +44,8 @@ $mahasiswa = [
     <li>Makanan Favorit:
          <?php foreach ($ms ['makanan'] as $m) {
             echo $m;
-         }?>
-
+         }
+         ?>
         </li>
     <li>Peliharaan: <?= $ms ['peliharaan']; ?></li>
    </ul> 
