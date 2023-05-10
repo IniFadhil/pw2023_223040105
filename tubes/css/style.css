@@ -1,0 +1,186 @@
+:root{
+    /* color */
+    --primaryColor : #00273c;
+    --scondaryColor : #e1c743;
+    /* font */
+    --mainfont : 'Open Sans', sans-serif;
+    --headingfont : 'Merriweather', serif;
+
+}
+*{
+    box-sizing: border-box !important;
+}
+body{
+    font-family: var(--mainfont);
+    height: 7000px;
+}
+
+.heading{
+    font-size: var(--headingfont);
+    font-size: 50px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight: 300;
+}
+.section-margin{
+    margin-top: 100px;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: var(--headingfont);
+    font-weight: 900;
+}
+.navbar{
+    color: var(--primaryColor) !important;
+}
+.navbar-brand span{
+    color: var(--scondaryColor);
+}
+.nav-link{
+    font-family: var(--headingfont);
+}
+.nav-link.active{
+    font-weight: 700;
+    color: var(--scondaryColor) !important;
+}
+.icons-home i{
+    font-size: 1.8rem;
+    color: var(--scondaryColor);
+}
+
+/* Home */
+.home{
+    background-color: var(--primaryColor);
+    height: 600px;
+    padding-top: 72px;
+    font-family: var(--headingfont);
+}
+.home .heading{
+color: var(--scondaryColor);
+}
+.btn-home .btn-buy{
+    background-color: var(--scondaryColor);
+    font-family: var(--headingfont);
+    font-weight: 700;
+}
+.btn-home .btn-learn{
+    border: 2px solid var(--scondaryColor) ;
+    color: var(--scondaryColor);
+    font-family: var(--headingfont);
+    font-weight: 700;
+}
+
+/* service */
+.card-service{
+    background-color: var(--primaryColor);
+    color: #fff;
+}
+.card-service .btn-service{
+    border: 2px solid var(--scondaryColor);
+    color: var(--scondaryColor);
+    font-family: var(--headingfont);
+    font-weight: 700;
+}
+.card-service .btn-service:hover{
+    background-color: var(--scondaryColor);
+    color: var(--primaryColor);
+}
+.banner1 img{
+    width: 550px;
+    height: 300px;
+}
+.banner1 .container{
+    background-color: var(--primaryColor);
+    overflow-y: hidden;
+}
+.banner1 .btn-banner1{
+    background-color: var(--scondaryColor);
+}
+.banner1 img{
+    bottom: -60%;
+}
+
+/* product */
+.product .populer h3{
+    font-size: 22px;
+}
+.populer i{
+    font-size: 2.5rem;
+    color: var(--scondaryColor);
+}
+.product-populer .card-product{
+    width: 280px;
+}
+.product-populer .img-box{
+border: 2px solid var(--primaryColor);
+}
+.detail-product .label{
+    background-color: var(--primaryColor);
+    width: 80px;
+    color: #fff;
+}
+.detail-product a{
+    border: 2px solid var(--scondaryColor);
+    color: var(--scondaryColor);
+    font-size: 1.8rem;
+}
+.detail-product{
+    background-color: var(--scondaryColor);
+    color: var(--primaryColor);
+}
+
+@media screen and (min-width: 768px) {
+    .home{
+        /* padding-top: 14rem;   */
+    }
+    .home .heading{
+        font-size: 36px;
+    }
+    .populer i{
+        font-size: 2.9rem;
+    }
+}
+
+ @media screen and (min-width: 992px) {
+    .section-margin{
+        margin-top: 200px;
+    }
+    .home .content-left{
+        padding: bottom 40px ;
+    }
+    .home .heading{
+        font-size: 46px;
+    }
+    .home .subheading{
+        font-size: 20px;
+    }
+    .home img{
+        width: 550px;
+        height: 300px;
+    }
+    .home img{
+        right: 0;
+        bottom: -20%;
+    }
+    .home .img2{
+        width: 100px;
+        height: 80px;
+    }
+    .home .img2{
+        right: 0;
+    }
+    .home .container, .home .row{
+        height: 100%;
+    }
+    .banner1 img{
+        top: 100;
+    }
+    .banner1{
+        height: 200px;
+    }
+    .banner1 .container{
+        padding: 0 4rem;
+    }
+ }
