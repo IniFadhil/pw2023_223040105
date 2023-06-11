@@ -7,12 +7,11 @@
     --headingfont : 'Merriweather', serif;
 
 }
-*{
-    box-sizing: border-box !important;
-}
+
+
 body{
     font-family: var(--mainfont);
-    height: 7000px;
+    height: 0px;
 }
 
 .heading{
@@ -34,6 +33,7 @@ body{
 }
 .navbar{
     color: var(--primaryColor) !important;
+    background-color: #00273c;
 }
 .navbar-brand span{
     color: var(--scondaryColor);
@@ -49,6 +49,8 @@ body{
     font-size: 1.8rem;
     color: var(--scondaryColor);
 }
+
+
 
 /* Home */
 .home{
@@ -75,6 +77,8 @@ color: var(--scondaryColor);
     background-color: var(--primaryColor);
     color: #fff;
 }
+
+
 .card-service .btn-service{
     border: 2px solid var(--scondaryColor);
     color: var(--scondaryColor);
@@ -85,92 +89,10 @@ color: var(--scondaryColor);
     background-color: var(--scondaryColor);
     color: var(--primaryColor);
 }
-.banner1 img{
-    width: 550px;
-    height: 500px;
-}
-.banner1 .container{
-    background-color: var(--primaryColor);
-    overflow-y: hidden;
-}
-.banner1 .btn-banner1{
-    background-color: var(--scondaryColor);
-}
-/* .banner1 img{
-    bottom: -60%;
-} */
 
-/* product */
-.product .populer h3{
+
+
+/*internasional*/
+.Internasional h3{
     font-size: 22px;
 }
-.populer i{
-    font-size: 2.5rem;
-    color: var(--scondaryColor);
-}
-.product-populer .card-product{
-    width: 280px;
-}
-.product-populer .img-box{
-border: 2px solid var(--primaryColor);
-}
-.detail-product .label{
-    background-color: var(--primaryColor);
-    width: 80px;
-    color: #fff;
-}
-.detail-product a{
-    border: 2px solid var(--scondaryColor);
-    color: var(--scondaryColor);
-    font-size: 1.8rem;
-}
-.detail-product{
-    background-color: var(--scondaryColor);
-    color: var(--primaryColor);
-}
-
-@media screen and (min-width: 768px) {
-    .home{
-        padding-top: 4rem;
-        padding-bottom: 1rem;
-    }
-    .home .heading{
-        font-size: 36px;
-    }
-    .populer i{
-        font-size: 2.9rem;
-    }
-}
-
- @media screen and (min-width: 992px) {
-    .home .content-left{
-        padding: bottom 40px ;
-    }
-    .home .heading{
-        font-size: 46px;
-    }
-    .home .subheading{
-        font-size: 20px;
-    }
-    .home img{
-        width: 550px;
-        height: 500px;
-    }
-    .home img{
-        right: 0;
-        bottom: -20%;
-    }
-    .home .img2{
-        width: 100px;
-        height: 80px;
-    }
-    .home .img2{
-        right: 0;
-    }
-    .home .container, .home .row{
-        height: 100%;
-    }
-    .banner1{
-        height: 200px;
-    }
- }
